@@ -1,0 +1,9 @@
+.reply{
+  width: 200px;
+}
+.reply,
+.yes,
+.no{
+  display: inline-block;
+  vertical-align:middle;
+}
