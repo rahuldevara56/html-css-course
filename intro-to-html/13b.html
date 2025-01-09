@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+      }
+      .column1{
+        background-color: lightpink;
+        width: 100px;
+      }
+
+      .column2{
+        background-color: lightblue;
+        width: 200px;
+      }
+      .row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .row2item{
+        background-color: black;
+        color: azure;
+      }
+    
+    </style>
+
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="column1"></div>
+      <div class="column2">
+        <div>row1</div>
+        <div class="row2">
+          <div class="row2item">row2</div>
+          <div class="row2item">row3</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
