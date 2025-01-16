@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      body{
+        height: 3000px;
+      }
+
+      .sidebar{
+        position: fixed;
+        background-color: rgb(30, 29, 29);
+        left: 0;
+        top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        bottom: 0;
+
+      }
+
+      .firstdiv{
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      img{
+
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: contain;
+        margin-top: 10px;
+      }
+
+
+      .seconddiv{
+        margin-left: 71px;
+        background-color: rgb(77, 72, 72);
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        padding-right: 30px;
+
+        
+      }
+      .in{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .info{
+        color: rgb(193, 187, 187);
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      
+      .plus{
+        color: rgb(193, 187, 187);
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+      .hash{
+        color: rgb(202, 196, 196);
+        margin-top: 14px;
+        margin-left: 10px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="firstdiv">
+        <img src="cat.jpg" alt="">
+        <img src="cat2.jpg" alt="">
+        <img src="dog.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="seconddiv">
+      <div class="in">
+        <div class="info">INFO</div>
+        <div class="plus">+</div>
+
+      </div >
+      
+      <div class="hash"># new-videos</div>
+      <div class="hash"># updates</div>
+      <div class="hash"># faq</div>
+
+    </div>
+    
+  </body>
+</html>

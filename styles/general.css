@@ -5,4 +5,10 @@ p{
  }
  body{
   margin: 0px;
+  height: 3000px;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 96px;
+  background-color: rgb(252, 252, 252);
+  font-family: roboto, arial;
 }
